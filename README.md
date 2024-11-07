@@ -23,7 +23,7 @@ Rediseña tu web que entregaste en la actividad anterior de manera que:
 
 En el documento PDF debes subir:<br>
 
-    -Un enlace al github con tu código.<br>
+    -Un enlace al github con tu código.
     -Una captura de imagen con el HTML final donde se vea el diseño de la web.
     -Una captura donde se vea que validaste tu código final y que es correcto.
     -Una captura donde se vea que enviaste los datos del formulario al Webhook.
