@@ -31,12 +31,18 @@ body{
 .header{
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    min-width: 100vw;
     border-bottom: 1px solid black;
     margin-bottom: 30px;
     padding: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 2px 2px;
+    background-color: rgb(25, 117, 255);
     
+}
+
+.header h1 {
+    text-align: center;
+    color: white;
 }
 
 
@@ -51,28 +57,38 @@ body{
     margin-top: 45px;
     justify-content: space-around;
     box-shadow: rgba(0, 0, 0, 0.35) 20px 20px 20px 20px;
+    background-color: rgb(25, 117, 255);
+    color: white;
+    font-size: 1.4rem;
 }
 
 
 .header a{
-    font-size: x-large;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.header a:hover{
+    background-color: rgb(86, 159, 255);
 }
 
 
 
+
+
 .navigation{
-    min-width: 100%;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.data{
-    padding: 30px;
+.navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
 }
-
-.tables{
-    padding: 30px;
-}
-
 
