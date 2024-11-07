@@ -39,6 +39,13 @@ body{
     
 }
 
+.header a{
+    font-size: x-large;
+}
+
+.header h1{
+    text-align: center;
+}
 
 
 .footer{
@@ -54,9 +61,6 @@ body{
 }
 
 
-.header a{
-    font-size: x-large;
-}
 
 
 
