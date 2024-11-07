@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="../CSS/form.css">
 </head>
 <body>
     <div class="container">
+        <h3>Formulario de suscripción</h3>
         <form action="" method="post">
-            
+            <div class="part1">
+                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Apellidos" required>
+            </div>
+            <div class="part2">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Contraseña" required>
+            </div>
+            <div class="part3">
+                <button type="submit">Suscribirse</button>
+                <button type="reset">Resetear</button>
+            </div>
         </form>
     </div>
 </body>
