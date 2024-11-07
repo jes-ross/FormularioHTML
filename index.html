@@ -9,7 +9,14 @@
 <body>
     <header class="header">
         <h1>Mis video-juegos favoritos</h1>
-        <a href="HTML/table.html">Valoraciones de mis juegos favoritos</a>
+        <nav class="navigation">
+            <div class="tables">
+                <a href="HTML/table.html">Valoraciones de mis juegos favoritos</a>
+            </div>
+            <div class="data">
+                <a href="HTML/dta.html">Datos del formulario</a>
+            </div>
+        </nav>
     </header>
     <main class="main">
 
@@ -40,6 +47,9 @@
                 let now = new Date();
                 document.getElementById("fechayhora").innerHTML = "Hoy es " + now.getDay() + " del " + now.getMonth() + " en el año " + now.getFullYear() + " y son las " + now.getHours() + ":" + now.getMinutes();
             </script>
+        </p>
+        <p>
+            © Todos los derechos reservados.
         </p>   
     </footer>
 </body>

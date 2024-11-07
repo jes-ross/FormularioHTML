@@ -3,6 +3,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 .juego{
@@ -25,4 +27,52 @@ body{
     max-width: 45%;
     max-height: 45%;
 }
+
+.header{
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 2px 2px;
+    
+}
+
+
+
+.footer{
+    height: 80px;
+    min-width: 100%;
+    border-top: 2px solid #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.35) 20px 20px 20px 20px;
+}
+
+
+.header a{
+    font-size: x-large;
+}
+
+
+
+.navigation{
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.data{
+    padding: 30px;
+}
+
+.tables{
+    padding: 30px;
+}
+
 
