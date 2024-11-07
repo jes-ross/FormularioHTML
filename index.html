@@ -7,29 +7,40 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <h1>Mis video-juegos favoritos</h1>
-    <a href="HTML/table.html">Valoraciones de mis juegos favoritos</a>
+    <header class="header">
+        <h1>Mis video-juegos favoritos</h1>
+        <a href="HTML/table.html">Valoraciones de mis juegos favoritos</a>
+    </header>
+    <main class="main">
 
-    <div class="juego juego1">
-        <img src="IMG/REDDEADREDEMPTION.jpg" alt="RED DEAD REDEMPTION">
-        <h2>RED DEAD REDEMPTION</h2>
-        <p>Un forajido a de sobrevivir a todos los peligros del medio oeste valiendose solo de su arma</p>
-        <a href="https://www.rockstargames.com/es/reddeadredemption2">Página oficial del juego</a>
+        <div class="juego juego1">
+            <img src="IMG/REDDEADREDEMPTION.jpg" alt="RED DEAD REDEMPTION">
+            <h2>RED DEAD REDEMPTION</h2>
+            <p>Un forajido a de sobrevivir a todos los peligros del medio oeste valiendose solo de su arma</p>
+            <a href="https://www.rockstargames.com/es/reddeadredemption2">Página oficial del juego</a>
+        </div>
+        <div class="juego juego2">
+            <img src="IMG/BATMANARKHAMKNIGHT.jpg" alt="Batman Arkham Knight">
+            <h2>BATMAN: ARKHAM KNIGHT</h2>
+            <p>Batman tendrá que pelear con todos sus enemigos para poder salvar Gótica de un destino horrible</p>
+            <a href="https://vandal.elespanol.com/juegos/ps4/batman-arkham-knight/23612#p-73">Guía completa del juego</a>
 
-    </div>
-    <div class="juego juego2">
-        <img src="IMG/BATMANARKHAMKNIGHT.jpg" alt="Batman Arkham Knight">
-        <h2>BATMAN: ARKHAM KNIGHT</h2>
-        <p>Batman tendrá que pelear con todos sus enemigos para poder salvar Gótica de un destino horrible</p>
-        <a href="https://vandal.elespanol.com/juegos/ps4/batman-arkham-knight/23612#p-73">Guía completa del juego</a>
+        </div>
+        <div class="juego juego3">
+            <img src="IMG/SPIDERMAN2.webp" alt="Spiderman 2">
+            <h2>SPIDERMAN 2</h2>
+            <p>Spiderman y su pupilo Miles Morales deberán enfrentarse a los nuevos peligros que se avecinan a Nueva York</p>
+            <a href="https://www.playstation.com/es-es/games/marvels-spider-man-2/">Compra el juego</a>
 
-    </div>
-    <div class="juego juego3">
-        <img src="IMG/SPIDERMAN2.webp" alt="Spiderman 2">
-        <h2>SPIDERMAN 2</h2>
-        <p>Spiderman y su pupilo Miles Morales deberán enfrentarse a los nuevos peligros que se avecinan a Nueva York</p>
-        <a href="https://www.playstation.com/es-es/games/marvels-spider-man-2/">Compra el juego</a>
-
-    </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p id="fechayhora">
+            <script>
+                let now = new Date();
+                document.getElementById("fechayhora").innerHTML = "Hoy es " + now.getDay() + " del " + now.getMonth() + " en el año " + now.getFullYear() + " y son las " + now.getHours() + ":" + now.getMinutes();
+            </script>
+        </p>   
+    </footer>
 </body>
 </html>
